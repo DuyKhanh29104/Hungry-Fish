@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1679243142 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+

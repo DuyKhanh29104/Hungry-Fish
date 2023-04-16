@@ -1,6 +1,28 @@
 # depslib dependency file v1.0
-1679243142 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\main.cpp
+1681664798 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\main.cpp
+	"BaseObject.h"
+	"Fish.h"
+
+1680770875 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\commonfunction.cpp
+	"CommonFunction.h"
+
+1681663448 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\commonfunction.h
 	<iostream>
+	<cstdlib>
+	<ctime>
 	<SDL.h>
 	<SDL_image.h>
+	<string>
+
+1681661825 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\baseobject.cpp
+	"BaseObject.h"
+
+1681661825 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\baseobject.h
+	"CommonFunction.h"
+
+1681664778 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\fish.cpp
+	"Fish.h"
+
+1681664778 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\fish.h
+	"CommonFunction.h"
 

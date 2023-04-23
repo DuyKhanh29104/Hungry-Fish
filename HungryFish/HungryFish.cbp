@@ -34,10 +34,13 @@
 		</Compiler>
 		<Unit filename="BaseObject.cpp" />
 		<Unit filename="BaseObject.h" />
-		<Unit filename="CommonFunction.cpp" />
-		<Unit filename="CommonFunction.h" />
 		<Unit filename="Fish.cpp" />
 		<Unit filename="Fish.h" />
+		<Unit filename="Function.cpp" />
+		<Unit filename="Function.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="GameLoop.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

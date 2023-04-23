@@ -10,12 +10,14 @@ Fish::Fish()
     rect_.w = 0;
     if(rect_.x == screen_w)
     {
+        rect_.x += rand()% (screen_w / 2);
         left = true;
-        x_ = -4;
+        x_ = -speed;
     }else
     {
+        rect_.x = - rect_.h - (rand()% screen_w);
         left = false;
-        x_ = 4;
+        x_ = speed;
     }
 }
 
@@ -53,13 +55,12 @@ bool Fish::loadImage(std::string path,std::string path2,SDL_Renderer* gRender)
     SDL_Surface* loadmedia2 = IMG_Load(path2.c_str());
     if(loadmedia != NULL && loadmedia2 != NULL)
     {
-        //SDL_SetColorKey(loadmedia,SDL_TRUE,SDL_MapRGB(loadmedia->format,0xFF, 0xFF, 0xFF));
         newtexture=SDL_CreateTextureFromSurface(gRender, loadmedia);
         newtexture2=SDL_CreateTextureFromSurface(gRender, loadmedia2);
         if(newtexture != NULL && newtexture2 != NULL)
         {
-            rect_.h = 0.8 * h_object;//loadmedia->h;
-            rect_.w = 0.8 * w_object;//loadmedia->w;
+            rect_.h = 0.8 * h_object;
+            rect_.w = 0.8 * w_object;
         }
     }
     SDL_FreeSurface(loadmedia);
@@ -79,32 +80,35 @@ void Fish::Render(SDL_Renderer* des, const SDL_Rect* clip)
 
 }
 
-void Fish::SetBig()
+void Fish::Big()
 {
     rect_.h = 1.6 * h_object;
     rect_.w = 1.3 * w_object;
+    big = true;
 }
 
-void Fish::random()
+void Fish::NewFish()
 {
     rect_.x = rand() % 2 * screen_w;
     rect_.y = rand() % 5 * screen_h/6 + 30;
     if(rect_.x == screen_w)
     {
+        rect_.x += rand()% (screen_w / 2);
         left = true;
-        x_ = -4;
+        x_ = -speed;
     }else
     {
+        rect_.x = - rect_.h - (rand()% screen_w);
         left = false;
-        x_ = 4;
+        x_ = speed;
     }
 }
 void Fish::Move()
 {
     rect_.x += x_;
-    if(rect_.x > screen_w || rect_.x < -rect_.w)
+    if(rect_.x > 2 * screen_w || rect_.x < - screen_w)
     {
-        random();
+        NewFish();
     }
 
 }

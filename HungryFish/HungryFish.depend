@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1681664798 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\main.cpp
+1681890094 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\main.cpp
 	"BaseObject.h"
 	"Fish.h"
 
@@ -17,12 +17,84 @@
 1681661825 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\baseobject.cpp
 	"BaseObject.h"
 
-1681661825 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\baseobject.h
-	"CommonFunction.h"
+1681839421 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\baseobject.h
+	"Function.h"
 
-1681664778 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\fish.cpp
+1681890204 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\fish.cpp
 	"Fish.h"
 
-1681664778 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\fish.h
-	"CommonFunction.h"
+1681840658 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\fish.h
+	"Function.h"
+
+1681839224 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\function.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+
+1681839224 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\function.cpp
+	"Function.h"
+
+1681661825 source:c:\users\admin\onedrive\desktop\workspace\hungryfish - sao chép\baseobject.cpp
+	"BaseObject.h"
+
+1681839421 c:\users\admin\onedrive\desktop\workspace\hungryfish - sao chép\baseobject.h
+	"Function.h"
+
+1681839224 c:\users\admin\onedrive\desktop\workspace\hungryfish - sao chép\function.h
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+
+1681890204 source:c:\users\admin\onedrive\desktop\workspace\hungryfish - sao chép\fish.cpp
+	"Fish.h"
+
+1681840658 c:\users\admin\onedrive\desktop\workspace\hungryfish - sao chép\fish.h
+	"Function.h"
+
+1681839224 source:c:\users\admin\onedrive\desktop\workspace\hungryfish - sao chép\function.cpp
+	"Function.h"
+
+1681890094 source:c:\users\admin\onedrive\desktop\workspace\hungryfish - sao chép\main.cpp
+	"BaseObject.h"
+	"Fish.h"
+
+1682269583 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\baseobject.cpp
+	"BaseObject.h"
+
+1681839421 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\baseobject.h
+	"Function.h"
+
+1682266358 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\function.h
+	<iostream>
+	<bits/stdc++.h>
+	<SDL.h>
+	<SDL_image.h>
+
+1682270018 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\fish.cpp
+	"Fish.h"
+
+1682267397 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\fish.h
+	"Function.h"
+
+1682266358 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\function.cpp
+	"Function.h"
+
+1682266164 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\main.cpp
+	"GameLoop.h"
+
+1682269181 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\game.h
+	"BaseObject.h"
+	"Fish.h"
+
+1682269453 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\game.cpp
+	"Game.h"
+
+1682269583 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\gameloop.h
+	"Game.h"
 

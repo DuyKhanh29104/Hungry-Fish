@@ -26,13 +26,12 @@ bool BaseObject::loadImage(std::string path,std::string path2,SDL_Renderer* gRen
     SDL_Surface* loadmedia2 = IMG_Load(path2.c_str());
     if(loadmedia != NULL && loadmedia2 != NULL)
     {
-        //SDL_SetColorKey(loadmedia,SDL_TRUE,SDL_MapRGB(loadmedia->format,0xFF, 0xFF, 0xFF));
         newtexture=SDL_CreateTextureFromSurface(gRender,loadmedia);
         newtexture2=SDL_CreateTextureFromSurface(gRender,loadmedia2);
         if(newtexture != NULL && newtexture2 != NULL)
         {
-            rect_.h = h_object;//loadmedia->h;
-            rect_.w = w_object;//loadmedia->w;
+            rect_.h = h_object;
+            rect_.w = w_object;
         }
     }
     SDL_FreeSurface(loadmedia);
@@ -63,20 +62,20 @@ void BaseObject::Control(SDL_Event &e)
         switch(e.key.keysym.sym )
                 {
                     case SDLK_UP:
-                        y_=-5;
+                        y_ = -6;
                         break;
 
                     case SDLK_DOWN:
-                        y_=5;
+                        y_ = 6;
                         break;
 
                     case SDLK_LEFT:
-                        x_=-5;
+                        x_ = -6;
                         left=true;
                         break;
 
                     case SDLK_RIGHT:
-                        x_=5;
+                        x_ = 6;
                         left=false;
                         break;
                 }

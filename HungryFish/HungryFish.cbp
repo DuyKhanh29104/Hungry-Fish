@@ -32,8 +32,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="BaseObject.cpp" />
-		<Unit filename="BaseObject.h" />
 		<Unit filename="Fish.cpp" />
 		<Unit filename="Fish.h" />
 		<Unit filename="Function.cpp" />
@@ -41,6 +39,10 @@
 		<Unit filename="Game.cpp" />
 		<Unit filename="Game.h" />
 		<Unit filename="GameLoop.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="Text.cpp" />
+		<Unit filename="Text.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

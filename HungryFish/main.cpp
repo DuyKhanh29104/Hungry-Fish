@@ -12,7 +12,12 @@ int main(int arc, char* argv[])
     }
     else
     {
-        NewGame(gRenderer);
+        if(MenuGame(gRenderer, font))
+        while(true)
+        {
+            NewGame(gRenderer);
+            if(GameOver(gRenderer, font) == false) break;
+        }
     }
     SDLCommonFunc:: close();
 

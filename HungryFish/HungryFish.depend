@@ -1,7 +1,6 @@
 # depslib dependency file v1.0
-1681890094 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\main.cpp
-	"BaseObject.h"
-	"Fish.h"
+1683691341 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\main.cpp
+	"GameLoop.h"
 
 1680770875 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\commonfunction.cpp
 	"CommonFunction.h"
@@ -14,28 +13,29 @@
 	<SDL_image.h>
 	<string>
 
-1681661825 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\baseobject.cpp
+1683709376 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\baseobject.cpp
 	"BaseObject.h"
 
-1681839421 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\baseobject.h
+1683709376 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\baseobject.h
 	"Function.h"
 
-1681890204 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\fish.cpp
+1682490274 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\fish.cpp
 	"Fish.h"
 
-1681840658 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\fish.h
+1682267397 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\fish.h
 	"Function.h"
 
-1681839224 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\function.h
+1683452399 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\function.h
 	<iostream>
-	<cstdlib>
-	<ctime>
+	<bits/stdc++.h>
 	<SDL.h>
 	<SDL_image.h>
-	<string>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
 
-1681839224 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\function.cpp
+1683691205 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\function.cpp
 	"Function.h"
+	"Text.h"
 
 1681661825 source:c:\users\admin\onedrive\desktop\workspace\hungryfish - sao chép\baseobject.cpp
 	"BaseObject.h"
@@ -70,31 +70,59 @@
 1681839421 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\baseobject.h
 	"Function.h"
 
-1682266358 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\function.h
+1682480066 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\function.h
 	<iostream>
 	<bits/stdc++.h>
 	<SDL.h>
 	<SDL_image.h>
+	<SDL_ttf.h>
 
-1682270018 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\fish.cpp
+1682489990 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\fish.cpp
 	"Fish.h"
 
 1682267397 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\fish.h
 	"Function.h"
 
-1682266358 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\function.cpp
+1682489345 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\function.cpp
 	"Function.h"
+	"Text.h"
 
-1682266164 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\main.cpp
+1682489430 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\main.cpp
 	"GameLoop.h"
 
-1682269181 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\game.h
+1682446377 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\game.h
 	"BaseObject.h"
 	"Fish.h"
+	"Text.h"
 
-1682269453 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\game.cpp
+1682446566 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\game.cpp
+	"Game.h"
+	<string>
+
+1682489269 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\gameloop.h
 	"Game.h"
 
-1682269583 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\gameloop.h
+1682443071 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\text.h
+	"Function.h"
+
+1682487629 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish - sao chép\text.cpp
+	"Text.h"
+
+1682443071 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\text.h
+	"Function.h"
+
+1683709376 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\game.cpp
 	"Game.h"
+	<string>
+
+1682446377 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\game.h
+	"BaseObject.h"
+	"Fish.h"
+	"Text.h"
+
+1683691276 c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\gameloop.h
+	"Game.h"
+
+1683475866 source:c:\users\admin\onedrive\desktop\c++ workspace\hungryfish\text.cpp
+	"Text.h"
 

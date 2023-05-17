@@ -1,9 +1,10 @@
 #pragma once
 #include "Game.h"
 
-Game* game;
+
 void NewGame(SDL_Renderer* renderer){
-    game = new Game(renderer);
+    srand(time(0));
+    Game* game = new Game(renderer);
     fishLoad(renderer);
     int UPS = 60;
     int updateDelay = 1000 / UPS;
@@ -18,5 +19,7 @@ void NewGame(SDL_Renderer* renderer){
            SDL_Delay(updateTime);
         }
     }
+    Free();
+    delete game;
 }
 

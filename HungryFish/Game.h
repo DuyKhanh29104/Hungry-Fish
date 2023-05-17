@@ -1,8 +1,12 @@
 #pragma once
 #include"BaseObject.h"
 #include"Fish.h"
+#include"Text.h"
 
 void fishLoad(SDL_Renderer *gRenderer);
+void RenderPoint(SDL_Renderer* gRenderer, int n);
+void Free();
+
 class Game{
 private:
     bool running = true;
